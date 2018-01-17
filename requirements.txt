@@ -1,0 +1,7 @@
+pymongo
+mongoengine
+requests
+flask
+Faker
+pyyaml
+json_log_formatter
