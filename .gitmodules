@@ -4,3 +4,6 @@
 [submodule "onebase_common"]
 	path = onebase_common
     url = ./onebase_common
+[submodule "onebase_web"]
+	path = onebase_web
+	url = ./onebase_web
