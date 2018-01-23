@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+[submodule "1base_api"]
+	path = 1base_api
+	url = ./1base_api/
+[submodule "1base_common"]
+	path = 1base_common
+	url = ./1base_common/
+[submodule "onebase_api"]
+	path = onebase_api
+	url = ./onebase_api
+[submodule "onebase_common"]
+	path = onebase_common
+	url = ./onebase_common/
+=======
+[submodule "onebase_api"]
+	path = onebase_api
+    url = ./onebase_api
+[submodule "onebase_common"]
+	path = onebase_common
+    url = ./onebase_common
+>>>>>>> sumo
