@@ -6,3 +6,5 @@ Faker
 pyyaml
 json_log_formatter
 nose
+flask-login
+wtforms
