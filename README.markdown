@@ -26,6 +26,11 @@ and OpenStreetMap as the data provider you need.
 If data is gold, and open data is going to change the world, why is it still
 fragmented? Shouldn't there be a central place to access it?
 
+## How to Install (for Developers)
+
+If you're wanting to get up and running developing 1Base, please follow the
+directions in the [docs](./docs/install.markdown).
+
 ## Project Structure
 
 
