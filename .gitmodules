@@ -7,3 +7,6 @@
 [submodule "onebase_web"]
 	path = onebase_web
 	url = ./onebase_web
+[submodule "onebase_presenter"]
+	path = onebase_presenter
+	url = ./onebase_presenter/
