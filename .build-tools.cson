@@ -1,0 +1,75 @@
+providers: [
+  {
+    key: "bt"
+    config:
+      commands: [
+        {
+          project: "/home/jordan/projects/1Base"
+          source: "/home/jordan/projects/1Base/.build-tools.cson"
+          name: "first-command"
+          command: "python setup.py test"
+          wd: "./onebase_api"
+          env: {}
+          modifier: {}
+          environment:
+            name: "child_process"
+            config:
+              stdoe: "both"
+          stdout:
+            pipeline: [
+              {
+                name: "profile"
+                config:
+                  profile: "python"
+              }
+            ]
+          stderr:
+            pipeline: [
+              {
+                name: "profile"
+                config:
+                  profile: "python"
+              }
+            ]
+          output:
+            console:
+              close_success: true
+              queue_in_buffer: true
+              colors: true
+              stdin: false
+            linter:
+              no_trace: false
+              immediate: false
+          version: 2
+        }
+        {
+          project: "/home/jordan/projects/1Base"
+          source: "/home/jordan/projects/1Base/.build-tools.cson"
+          name: "second-command"
+          command: "echo $(pwd)"
+          wd: "."
+          env: {}
+          modifier: {}
+          environment:
+            name: "child_process"
+            config:
+              stdoe: "both"
+          stdout:
+            pipeline: [
+              {
+                name: "all"
+              }
+            ]
+          stderr:
+            pipeline: []
+          output:
+            console:
+              close_success: true
+              queue_in_buffer: true
+              colors: false
+              stdin: false
+          version: 2
+        }
+      ]
+  }
+]
