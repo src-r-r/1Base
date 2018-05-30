@@ -1,12 +1,12 @@
 [submodule "onebase_api"]
-	path = onebase_api
-    url = ./onebase_api
+    path = onebase_api
+    url = https://github.com/src-r-r/onebase_api.git
 [submodule "onebase_common"]
-	path = onebase_common
-    url = ./onebase_common
+    path = onebase_common
+    url = https://github.com/src-r-r/onebase_common.git
 [submodule "onebase_web"]
-	path = onebase_web
-	url = ./onebase_web
+    path = onebase_web
+    url = https://github.com/src-r-r/onebase_web.git
 [submodule "onebase_presenter"]
-	path = onebase_presenter
-	url = ./onebase_presenter
+    path = onebase_presenter
+    url = https://github.com/src-r-r/onebase_presenter.git
